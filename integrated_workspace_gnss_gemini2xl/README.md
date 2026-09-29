@@ -1,8 +1,8 @@
 # GNSS + Gemini 2 XL integrated workspace
 
-This directory preserves the completed integration from local inner-workspace
-commit `d5bfec1a49144b8a917770e3a1b5b63855cdbeb5` without replacing the original
-outer-repository ZIP.
+This directory contains the GNSS + Gemini 2 XL integrated workspace originally
+based on local inner-workspace commit `d5bfec1a49144b8a917770e3a1b5b63855cdbeb5`,
+with the production mission-management evolution added in this outer repository.
 
 The GitHub file API used for publication is text-only, so the complete ZIP is
 stored as base64 text.
@@ -15,7 +15,7 @@ base64 -d surveillance_robot_ws_gnss_gemini2xl.zip.b64 \
 sha256sum surveillance_robot_ws_gnss_gemini2xl.zip
 ```
 
-Expected SHA-256: `6c0555c2f34ce81a649d055fd6fdb0dd55e98380714fd96ba01a7cec94d3cb1b`
+Expected SHA-256: `c51f6cfacf7304a13d98876e3025d3cd044d14a8b3124220db604888a8e5233b`
 
 The decoded archive contains `src/surveillance_robot_sensors/`,
 `orbbec_camera.repos`, all unchanged construction-site assets, and the complete
